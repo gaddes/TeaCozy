@@ -1,0 +1,43 @@
+/* Universal Styles */
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 98%;
+  border-bottom: 1px solid seashell;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header nav a {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: underline;
+  color: inherit;
+}
+
+/* .mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.mission img {
+  padding-top: 69px;
+}
