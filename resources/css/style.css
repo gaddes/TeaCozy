@@ -1,4 +1,5 @@
 /* Universal Styles */
+
 body {
   font-family: Helvetica, sans-serif;
   font-size: 20px;
@@ -15,6 +16,8 @@ h2 {
 h4 {
   margin: 0 0 0 0;
 }
+
+/* Header */
 
 header {
   position: fixed;
@@ -50,6 +53,8 @@ header nav a {
   color: inherit;
 }
 
+/* Main Content */
+
 .content {
   display: flex;
   flex-direction: column;
@@ -57,6 +62,8 @@ header nav a {
   padding-top: 69px;
   margin: 0 auto 0 auto;
 }
+
+/* Mission */
 
 .mission {
   display: flex;
@@ -81,13 +88,15 @@ header nav a {
   margin-bottom: 10px;
 }
 
+/* Tea of the Month */
+
 .teaofthemonth {
   width: 1000px;
-  margin: 20px auto 0 auto;
+  margin: 50px auto 50px auto;
 }
 
 .teaofthemonth-text {
-  padding: 30px 0 10px 0;
+  padding: 0 0 10px 0;
 }
 
 .teaofthemonth-text h4 {
@@ -111,4 +120,35 @@ header nav a {
 
 .teaofthemonth-images-imageplustext h4 {
   margin: 10px 0 0 0;
+}
+
+/* Locations */
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url(../images/img-locations-background.jpg);
+  background-position: center 5%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.locations-text {
+  align-self: flex-start;
+  padding-top: 50px;
+}
+
+.locations-individuallocation {
+  height: 250px;
+  width: 300px;
+  margin: 0 20px 0 20px;
+  padding: 20px 0 20px 0;
+  background-color: black;
+  opacity: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
