@@ -12,7 +12,7 @@ header {
   position: fixed;
   z-index: 1;
   height: 69px;
-  width: 98%;
+  width: 100%;
   border-bottom: 1px solid seashell;
 
   display: flex;
@@ -25,6 +25,10 @@ header img {
   padding-left: 10px;
 }
 
+header nav {
+  padding-right: 20px;
+}
+
 header nav a {
   margin-left: 10px;
   margin-right: 10px;
@@ -32,12 +36,42 @@ header nav a {
   color: inherit;
 }
 
-/* .mission {
+.content {
   display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
-.mission img {
+  flex-direction: column;
+  width: 1200px;
   padding-top: 69px;
+  margin: 0 auto 0 auto;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  justify-content: center;
+}
+
+.mission-text {
+  background-color: black;
+}
+
+.teaofthemonth {
+  width: 1000px;
+  margin: 0 auto 0 auto;
+}
+
+.teaofthemonth-text {
+  padding-top: 40px;
+}
+
+.teaofthemonth-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.teaofthemonth-images img {
+  width: 300px;
+  height: 200px;
 }
