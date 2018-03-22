@@ -131,13 +131,18 @@ header nav a {
   background-position: center 5%;
 
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.locations-text {
-  align-self: flex-start;
-  padding-top: 50px;
+.locations-title {
+  margin-bottom: 15px;
+}
+
+.locations-individuallocation-container {
+  /* NOTE: I can't figure out how to center this flex item, whilst offsetting the text above by 15px. */
+  display: flex;
 }
 
 .locations-individuallocation {
@@ -151,4 +156,14 @@ header nav a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.contact {
+  height: 200px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
 }
